@@ -1,0 +1,74 @@
+body
+	{
+		padding: 0 15px;
+		margin: auto;
+	}
+.editbtn
+	{
+		margin: 0 0 5px 5px;	
+	}
+.pagination
+	{
+		justify-content: center;
+	}
+.header
+#form-login{
+	text-align: center;
+}
+.child
+	{
+		margin-top:2vw;
+	}
+.modal-body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.modal-dialog
+	{
+		max-width: 300px;
+	}
+p 
+	{
+		margin-bottom: 0;
+	}
+
+.sort-directions
+	{
+		position: relative; /* Абсолютное позиционирование */
+		left: 9px;
+    	bottom: -16px;
+    	border: 8px solid transparent;
+    	border-top: 11px solid #007DFF;
+	}
+#form-login
+	{
+		text-align: center;
+	}
+.sort button
+	{
+		margin-left: 50%;
+	}
+.buttonBlock
+	{
+		display: flex;
+		flex-direction: row;
+		max-height: 38px;
+		justify-content: flex-end;
+	}
+.goToSignIn, #logOut
+	{
+		margin-left: 15px;
+	}
+@media screen and (max-width: 985px) {
+		#form-edit {
+		  display: flex;
+		  flex-direction: column ;
+		}
+		#btnnnn{
+			left: 70%;
+			position: relative;
+			max-width: 46px;
+			margin-top: 10px;
+		}
+	  }
