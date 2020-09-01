@@ -6,7 +6,7 @@ return
                 'controller' => 'home'
             ],
         
-        '/{page:\d+}' =>
+        '{page:\d+}' =>
             [
                 'controller' => 'home'
             ],
