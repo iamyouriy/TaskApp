@@ -37,7 +37,7 @@ class Pagination {
         if (!$text) {
             $text = $page;
         }
-        return '<li class="page-item"><a class="page-link" href="/taskApp/'.$page.'">'.$text.'</a></li>';
+        return '<li class="page-item"><a class="page-link" href="/'.$page.'">'.$text.'</a></li>';
     }
 
     private function limits() {
